@@ -1,0 +1,26 @@
+{
+  "name": "built-in-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon basic-routing.js",
+    "fs": "node file-system.js",
+    "server": "node server.js",
+    "os": "node operating-system.js",
+    "server:livereload": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "validator": "^13.7.0"
+  }
+}
